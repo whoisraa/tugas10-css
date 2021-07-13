@@ -1,0 +1,32 @@
+body {
+    background-color: white;
+}
+
+div {
+    margin: 0 auto;
+    width: 99%;
+    height: 820px;
+    padding-left: 15px;
+    background-image: linear-gradient(to bottom left, white, red);
+    position: relative;
+    z-index: 1;
+}
+
+div.satu {
+    margin: 0 auto;
+    padding-top: 0;
+    width: 700px;
+    height: 500px;
+    background-image: radial-gradient(ellipse at bottom, white, blue);
+    position: static;
+    z-index: 2;
+}
+
+div.dua {
+    margin: 0 auto;
+    width: 700px;
+    height: 200px;
+    background-image: linear-gradient(to right, white, blue, white);
+    position: static;
+    z-index: 2;
+}
